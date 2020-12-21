@@ -1,0 +1,8 @@
+mask = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1XX0X
+mem[1] = 0
+mem[2] = 0
+mem[3] = 0
+mask = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX0XX01
+mem[1] = 0
+mem[2] = 0
+mem[3] = 0
