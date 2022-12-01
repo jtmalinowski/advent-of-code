@@ -29,18 +29,8 @@ int main() {
   long long ones, zeroes, xes;
   vector<int> xIdxs;
 
-  bool nowMyTicket = false, nowOtherTicket = false;
   while (!cin.eof()) {
     string line; getline(cin, line);
-
-    if (line.find("your ticket:") != string::npos) {
-      nowMyTicket = true;
-      continue;
-    }
-
-    if () {
-      
-    }
 
     smatch maskMatch;
     regex_search(line, maskMatch, maskRegx);
